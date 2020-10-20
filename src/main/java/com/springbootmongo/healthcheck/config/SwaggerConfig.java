@@ -33,7 +33,7 @@ public static final Contact DEFAULT_CONTACT = new Contact(
 	  @Bean
 	  public Docket api() {
 	    return new Docket(DocumentationType.SWAGGER_2)
-	    	.select().apis(RequestHandlerSelectors.basePackage("com.springbootmongo.healthcheckservice.controller"))
+	    	.select().apis(RequestHandlerSelectors.basePackage("com.springbootmongo.healthcheck.controller"))
 	    	.build()
 	        .apiInfo(DEFAULT_API_INFO)
 	        .produces(DEFAULT_PRODUCES_AND_CONSUMES)
