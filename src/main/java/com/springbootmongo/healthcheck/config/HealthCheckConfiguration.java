@@ -1,4 +1,4 @@
-package com.springbootmongo.healthcheckservice.config;
+package com.springbootmongo.healthcheck.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.springbootmongo.healthcheckservice.model;
+package com.springbootmongo.healthcheck.model;
 
 public class Response {
 	private String status;

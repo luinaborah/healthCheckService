@@ -1,4 +1,4 @@
-package com.springbootmongo.healthcheckservice.model;
+package com.springbootmongo.healthcheck.model;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.springbootmongo.healthcheckservice.config;
+package com.springbootmongo.healthcheck.config;
 
 import java.util.Arrays;
 import java.util.HashSet;
@@ -19,7 +19,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 public class SwaggerConfig {
 
 public static final Contact DEFAULT_CONTACT = new Contact(
-	      "Luina Borah", "luinaGitRepoLink", "borahluina@gmail.com");
+	      "Luina Borah", "https://github.com/luinaborah/healthCheckService.git", "borahluina@gmail.com");
 	  
 	  public static final ApiInfo DEFAULT_API_INFO = new ApiInfo(
 	      "Health Check Service API", "This Service gives the health details of each registered services/instances", "1.0",
